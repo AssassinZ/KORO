@@ -7,7 +7,7 @@ from mcWrite import mcServerWrite, mcBaseWrite, mcIndexWrite
 
 class mingchaoTableCode:
     data = json.loads(str(mingchaoRefresh(token)))
-    print('>>>>>>>>data\n'+str(mingchaoRefresh(token)))
+    print('>>>>>>>>>>>>>>>debug>>>>>>>>>>>>>>>\n'+str(mingchaoRefresh(token)+'\n>>>>>>>>>>>>>>>debug>>>>>>>>>>>>>>>'))
 
     userId = data['data']['userId']
     roleId = data['data']['roleId']
